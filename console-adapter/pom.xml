@@ -9,22 +9,12 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>acceptance-test</artifactId>
+  <artifactId>console-adapter</artifactId>
 
   <dependencies>
     <dependency>
       <groupId>com.poetry</groupId>
       <artifactId>domain-api</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.poetry</groupId>
-      <artifactId>domain</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.poetry</groupId>
-      <artifactId>file-adapter</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>

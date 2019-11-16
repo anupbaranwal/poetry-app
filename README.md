@@ -2,25 +2,25 @@
 This is a KATA application for Hexagonal architecture.
 
 ## KATA - 1
-
 - Write the left side port for test for requesting poetry i.e. **`RequestVerse`**.
 - Write the domain i.e. **`PoetryReader`** which can be hardcoded. This very first version of the business logic returns a hard-coded result.
+![KATA-1](./images/KATA-1.png)
 
 ## KATA - 2
-
 - Write the right side port **`ObtainPoem`** with adapters i.e. test which fetches the poem using stubs.
+![KATA-2](./images/KATA-2.png)
 
 ## KATA - 3
-
 - Write a **`ConsoleAdapter`**(left side) which could write to the console (default) as the default publication strategy.
+![KATA-3](./images/KATA-3.png)
 
 ## KATA - 4
-
 - Write a **`Console`** application for the end user.
+![KATA-4](./images/KATA-4.png)
 
 ## KATA - 5
-
 - Write a **`PoemFileAdapter`** (right side adapter) that will return the content by reading the file.
+![KATA-5](./images/KATA-5.png)
 
 ## References
 
